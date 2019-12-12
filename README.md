@@ -63,17 +63,6 @@ except Cache_error_Item_not_found:
   cache.put(new_item_id="oranges", new_item_data=read_from_disk("oranges"))
 ```
 
-## Package contents
-The package consists of 8 files:
-- LRU_cache.py
-- LRU_cache_tests.py
-- Doubly_linked_node.py
-- Doubly_linked_node_tests.py
-- run_all_tests.py
-- sample_usage.py
-- .gitignore
-- README.md
-
 ## Dependencies
 
 - Python 3
